@@ -6,6 +6,7 @@
 </head>
 <body>
     <strong>Hello world, was geht ab!</strong>
+	<p>Erste Seite</p>
   <footer>
     Coming from the <a href="https://doc.<%= domain %>/Quickstart">Quickstart</a>?
     Check out <a href="https://doc.<%= domain %>/Guides/NodeJS/HelloWorld">the explanation</a>.
