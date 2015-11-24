@@ -1,0 +1,59 @@
+@CHARSET "UTF-8";
+body {
+	background-image:url("notebook.png");
+}
+
+h1 {
+	color:#4a5c66;
+	text-align:center;
+}
+
+#header {
+	height:50px;
+	border-bottom-style: solid;
+	border-bottom-color: #4a5c66;
+	
+	margin-bottom:10px;
+}
+
+.list-unstyled>li>a{
+	color:#4a5c66;
+}
+.nav li {
+	padding-bottom: 5px;
+	
+}
+
+.nav-stacked {
+	color:#ffffff;
+	background-color:#4a5c66;
+	
+}
+.nav-stacked >li>a{
+	color:#ffffff;
+}
+
+.nav-stacked >li>a:hover , .nav-stacked>li>a:focus{
+	text-decoration: none;
+	background-color: black;
+		
+}
+
+.nav-stacked>li.active>a, .nav-stacked>li.active>a:focus, .nav-stacked>li.active>a:hover{
+	color:#ffffff;
+	background-color: #80ba24;
+}
+
+.nav-pills li{
+	padding-bottom: 5px;
+	
+}
+
+
+.main{
+	height:400px;
+	opacity: 0.8;
+	overflow:auto;
+	margin-bottom:10px;
+	text-align: center;;
+}
