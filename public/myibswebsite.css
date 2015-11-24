@@ -33,14 +33,12 @@ h1 {
 	color:#ffffff;
 }
 
-.nav-stacked >li>a:hover , .nav-stacked>li>a:focus{
-	text-decoration: none;
-	background-color: black;
-		
+.nav-stacked >li>a:hover {
+	
+	background-color: black;	
 }
 
-.nav-stacked>li.active>a, .nav-stacked>li.active>a:focus, .nav-stacked>li.active>a:hover{
-	color:#ffffff;
+ .nav-stacked>li>a:focus{
 	background-color: #80ba24;
 }
 
@@ -51,9 +49,9 @@ h1 {
 
 
 .main{
-	height:400px;
-	opacity: 0.8;
 	overflow:auto;
 	margin-bottom:10px;
-	text-align: center;;
+	text-align: left;
+	padding-left: 20px;
+	padding-top: 20px;
 }
