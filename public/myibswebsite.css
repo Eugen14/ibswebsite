@@ -3,17 +3,25 @@ body {
 	background-image:url("notebook.png");
 }
 
-h1 {
+ h1 {
 	color:#4a5c66;
 	text-align:center;
+	font-family: Lucida Console;
+	
 }
 
-#header {
-	height:50px;
+
+.header {
+	height:80px;
 	border-bottom-style: solid;
 	border-bottom-color: #4a5c66;
-	
 	margin-bottom:10px;
+	
+}
+
+.header img{
+	padding-left: 20px;
+	
 }
 
 .list-unstyled>li>a{
@@ -24,9 +32,12 @@ h1 {
 	
 }
 
+
+
 .nav-stacked {
 	color:#ffffff;
 	background-color:#4a5c66;
+	font-family: Lucida Console;
 	
 }
 .nav-stacked >li>a{
