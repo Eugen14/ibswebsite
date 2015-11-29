@@ -5,8 +5,10 @@
     <title>Hello World in Node.js</title>
 </head>
 <body>
-    <h1>Hello world, was geht ab!</h1>
-	<p>Studium</p>
-
+    <strong>Hello world, was geht ab!</strong>
+  <footer>
+    Coming from the <a href="https://doc.<%= domain %>/Quickstart">Quickstart</a>?
+    Check out <a href="https://doc.<%= domain %>/Guides/NodeJS/HelloWorld">the explanation</a>.
+  </footer>
 </body>
 </html>
