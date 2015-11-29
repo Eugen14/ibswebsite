@@ -6,8 +6,11 @@ body {
  h1 {
 	color:#4a5c66;
 	text-align:center;
-	font-family: Lucida Console;
 	padding-top: 10px;
+}
+
+.container{
+	font-family: Lucida Console;
 }
 
 
@@ -40,7 +43,7 @@ body {
 .nav-stacked {
 	color:#80ba24;
 	background-color:#4a5c66;
-	font-family: Lucida Console;
+	
 	
 }
 .nav-stacked >li>a{
@@ -71,13 +74,12 @@ body {
 
 }
 
-
 .main{
-	overflow:auto;
+	
 	margin-bottom:10px;
 	text-align: left;
-	
 	padding-top: 0px;
+	font-family: Verdana;
 }
 
 fieldset{
@@ -96,10 +98,11 @@ fieldset{
 }
 
 .ibs img {
-	width: 80%;
-	height: 80%;
+	width: 70%;
+	height: 40%;
 	
 }
 .wikisuche p{
 	text-align: center;
 }
+
