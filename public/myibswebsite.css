@@ -3,6 +3,7 @@ body {
 	background-image:url("notebook.png");
 }
 
+
  h1 {
 	color:#4a5c66;
 	text-align:center;
@@ -106,3 +107,11 @@ fieldset{
 	text-align: center;
 }
 
+.footer{
+	margin-top: 10%;
+	margin-left: 10%;
+}
+.footer img{
+	width: 15%;
+	height:15%;
+}
