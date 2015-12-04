@@ -1,0 +1,117 @@
+@CHARSET "UTF-8";
+body {
+	background-image:url("notebook.png");
+}
+
+
+ h1 {
+	color:#4a5c66;
+	text-align:center;
+	padding-top: 10px;
+}
+
+.container{
+	font-family: Lucida Console;
+}
+
+
+.header {
+	height:100px;
+	border-bottom-style: solid;
+	border-bottom-color: #4a5c66;
+	margin-bottom:2px;
+	
+}
+
+.header img{
+	padding-left: 0px;
+	padding-top: 20px;
+}
+
+.list-unstyled>li>a{
+	color:#4a5c66;
+}
+.nav li {
+	padding-bottom: 5px;
+	
+}
+
+.col-sm-3{
+	padding-top: 20px;
+}
+
+
+.nav-stacked {
+	color:#80ba24;
+	background-color:#4a5c66;
+	
+	
+}
+.nav-stacked >li>a{
+	color:#ffffff;
+	
+}
+
+.nav-stacked >li>a:hover {
+	background-color: black;	
+}
+
+ .nav-stacked>li>a:focus{
+	background-color: #80ba24;
+	border-style: none;
+}
+
+.nav-pills li{
+	padding-bottom: 5px;
+	border-bottom-style: ridge;
+}
+
+.glyphicon  {
+	color:#ffffff;
+}
+
+.col-xs-8{
+	margin-left: 3%;
+
+}
+
+.main{
+	
+	margin-bottom:10px;
+	text-align: left;
+	padding-top: 0px;
+	font-family: Verdana;
+}
+
+fieldset{
+	text-align: center;
+	margin-right: 15%;
+	margin-left: 15%;
+}
+
+.impressum .glyphicon{
+	color: #4a5c66;
+}
+
+.impressum hr{
+	height: 3px;
+	background-color: #4a5c66;
+}
+
+.ibs img {
+	width: 70%;
+	height: 40%;
+	
+}
+.wikisuche p{
+	text-align: center;
+}
+
+.footer{
+	margin-top: 5%;
+	margin-left: 15%;
+}
+.footer img{
+	width: 10%;
+	height:10%;
+}
